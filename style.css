@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header h1 {
+  color: red;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+#featured-property figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#featured-property img {
+  max-width: 100%;
+  height: auto;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+nav a {
+    padding: 0,10px;
+    background-color: rgb(211, 212, 223);
+    font-size: 14px;
+    text-align: center;
+
+}
+#featured-property {
+  font-size: 20px;
+  text-align: center;
+}
+#details div {
+  float: left;
+}
+.bottom-div {
+  background-color: rgb(211, 212, 223); 
+  text-align: center;
+  width: 25%;
+}
